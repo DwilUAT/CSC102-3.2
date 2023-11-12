@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+    <html lang="en">
+<!--
+    Daniel Wilhite
+    CSC102 Foundation Assignment
+    Strings Page
+-->
+
+<!--Site meta data-->
+    <head>
+        <!--JavaScript linkage-->
+        <script src="stringCode.js"></script>
+        <!--CSS linkage-->
+        <link rel="stylesheet" href="strings.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Strings</title>
+    </head>
+    <body>
+        <h1>Welcome to STRINGS</h1>
+        <H2>Login Below</H2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4><p>Please submit the following data for validation:</p></h4>
+        <br>
+        <br>
+        <!--Input Validation Form-->
+        <form id="creditSubmit" onsubmit="return false"></form>
+        First Name: <input type="text" id="firstName"><br>
+        Last Name: <input type="text" id="lastName"><br>
+        Zip Code: <input type="text" id="zipCode"><br>
+        <br>
+        <div id="loginStatus">Press SUBMIT to Validate and Login</div>
+        <br>
+        <button onclick="valCreds();">SUBMIT</button>
+        </form>
+    </body>
+    </html>
